@@ -19,7 +19,7 @@ maintenance = { status = "actively-developed" }
 members = ["rustyline-derive"]
 
 [dependencies]
-bitflags = "2.11"
+bitflags = "2.13.2"
 # For file completion
 home = { version = "0.5.12", optional = true }
 # For History
@@ -61,10 +61,10 @@ windows-sys = { version = "0.61.2", features = [
     "Win32_System_Threading",
     "Win32_UI_Input_KeyboardAndMouse",
 ] }
-clipboard-win = "5.4"
+clipboard-win = "5.4.3"
 
 [dev-dependencies]
-doc-comment = "0.3"
+doc-comment = "0.3.4"
 env_logger = { version = "0.11", default-features = false }
 tempfile = "3.26.0"
 rand = "0.10"
